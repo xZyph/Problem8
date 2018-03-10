@@ -24,9 +24,9 @@ public class Main {
                         "05886116467109405077541002256983155200055935729725" +
                         "71636269561882670428252483600823257530420752963450";
 
-	    int largestSum = 0;
-	    int tempSum;
-	    int adjacentNumbers = 4;
+	    long largestSum = 0;
+	    long tempSum;
+	    int adjacentNumbers = 13;
 	    int maxTotal = number.length() - 1 - adjacentNumbers;
 
 	    for (int i = 0; i <= maxTotal; i++) {
